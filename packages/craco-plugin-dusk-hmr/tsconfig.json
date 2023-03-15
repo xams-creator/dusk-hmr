@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "es6",
+        "jsx": "react",
+        "lib": [
+            "ES6",
+            "ESNext",
+            "DOM"
+        ],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "allowUnreachableCode": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "skipDefaultLibCheck": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "removeComments": true,
+        "typeRoots": [],
+        "sourceMap": true,
+    },
+    "backup": {
+        "baseUrl": "./src",
+        "paths": {
+            "@configuration/*": [ "configuration/*" ],
+            "@assets/*": [ "assets/*" ],
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

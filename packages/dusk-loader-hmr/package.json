@@ -1,0 +1,19 @@
+{
+    "name": "@xams-framework/dusk-loader-hmr",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "files": [
+        "src"
+    ],
+    "main": "src/index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "@craco/types": "^7.1.0",
+        "@types/node": "latest"
+    },
+    "homepage": "https://github.com/xams-creator/dusk-hmr",
+    "author": "xams-creator"
+}

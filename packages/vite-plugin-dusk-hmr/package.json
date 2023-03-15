@@ -1,0 +1,29 @@
+{
+    "name": "@xams-framework/vite-plugin-dusk-hmr",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "files": [
+        "lib"
+    ],
+    "type": "module",
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "peerDependencies": {
+        "vite": ">=4.x"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.1"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc -watch"
+    },
+    "homepage": "https://github.com/xams-creator/xams-framework-frontend/tree/master/packages/dusk-components",
+    "author": "xams-creator"
+}
