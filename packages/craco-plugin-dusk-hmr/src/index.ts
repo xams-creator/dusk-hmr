@@ -11,7 +11,7 @@ function defineCracoPlugin(plugin: CracoPlugin): CracoPluginDefinition<any> {
 export default function createCracoDuskHmr() {
     return defineCracoPlugin({
         overrideWebpackConfig({ webpackConfig: webpack }) {
-            webpack.module?.rules?.unshift(
+            webpack.module?.rules?.push(
                 {
                     test: [REG_MODEL],
                     loader: require.resolve('@xams-framework/dusk-loader-hmr'),

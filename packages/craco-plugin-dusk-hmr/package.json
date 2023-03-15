@@ -1,6 +1,6 @@
 {
     "name": "@xams-framework/craco-plugin-dusk-hmr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "keywords": [],
     "license": "ISC",
@@ -12,7 +12,7 @@
     "module": "es/index.js",
     "typings": "es/index.d.ts",
     "dependencies": {
-        "@xams-framework/dusk-loader-hmr": "^0.0.1"
+        "@xams-framework/dusk-loader-hmr": "^1.0.0"
     },
     "devDependencies": {
         "@craco/types": "^7.1.0",
