@@ -15,14 +15,13 @@ export default function createViteDuskHmr(): PluginOption {
         transform(code, id) {
             if (REG_MODEL.test(id)) {
                 return {
-                    code: `
-${code}
+                    code: `${code}
 
 if (import.meta.hot) {
     const params = new URL(import.meta.url).searchParams;
     if (!params.has('v')) {
         import.meta.hot.accept((module) => {
-            const app = window.__DUSK_PLUGIN_VITE_HMR_APP_RUNTIME__;
+            const app = window.__DUSK_PLUGIN_HMR_APP_RUNTIME__;
             if (app && module) {
                 const model = module.default;
                 if (model) {
