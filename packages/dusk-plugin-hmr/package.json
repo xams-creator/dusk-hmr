@@ -1,6 +1,6 @@
 {
     "name": "@xams-framework/dusk-plugin-hmr",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "",
     "keywords": [],
     "license": "ISC",
@@ -16,8 +16,8 @@
         "@xams-framework/common": "^0.1.2"
     },
     "devDependencies": {
-        "@types/node": "latest",
-        "typescript": "latest"
+        "@types/node": "^18.16.3",
+        "typescript": "^5.0.4"
     },
     "scripts": {
         "build": "tsc",
